@@ -207,6 +207,7 @@ nav{
     backdrop-filter: blur(3px);
     overflow: hidden !important;
 }
+
 .landing-img{
     position: absolute;
     top: 0;
@@ -932,6 +933,7 @@ form .input-group{
 form .button-group{
     text-align: end;
 }
+
 .sendMessage{
     all: unset;
     background-color: var(--color-secondary);

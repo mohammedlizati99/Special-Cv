@@ -199,6 +199,7 @@ workFilter.forEach(filter => {
         });
         filter.classList.add("active");
         const category = filter.dataset.category;
+        works.firstElementChild.firstElementChild.textContent = category;
         console.log(existingWorks);
         existingWorks.forEach(work => {
             if(category=="all")
@@ -211,7 +212,6 @@ workFilter.forEach(filter => {
         });
     });
 });
-console.log(workFilter);
 /* /End work filter */
 /* Start Contact*/
 const nvMsg=getElement(".nvMessage a");
